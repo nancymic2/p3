@@ -16,6 +16,10 @@ Route::get('/', function()
 	return View::make('index');
 });
 
+Route::get('/generate', function()
+{
+	return View::make('lorem');
+});
 
 
 
