@@ -23,6 +23,14 @@ Route::get('/me', function()
 
 Route::get('/data', function()
 {
+	//get file
 	$books = File::get(app_path().'/database/books.json');
-	return $books;
+	//convert to array
+	$books = json_decode($books, true);
+	//return array first entry via text index
+	$first_book = $books ["The Great Gatsby"];
+
+	return  $first_book;
+
+	//return $books;
 });
