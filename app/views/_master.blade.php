@@ -8,12 +8,14 @@
 	
 </head>
 <body>
-<div style="width:880px; margin-left: 300px;">	
+<div style="width:830px; margin-left: 300px;">	
 <img src="logo.jpg">
-<h1>Lorem Ipsum bla bla bla bla</h1>
+<div style="width:730px; border: 2px solid gray; padding: 30px;">	
+<h1>Copy your test from here:</h1>
 
 @yield ('generator')
 
+</div>
 </div>
 </body>
 </html>
