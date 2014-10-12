@@ -1,24 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Laravel PHP Framework</title>
-
 
 	
-</head>
-<body>
-	
+@extends('_master')
 
-<h1>Lorem Ipsum bla bla bla bla</h1>
-
+@section ('generator')
 <?php 
-
+//echo '<img src="logo.jpg">';
+echo '<br>';
 $generator = new Badcow\LoremIpsum\Generator();
 $paragraphs = $generator->getParagraphs(5);
 echo implode('<p>', $paragraphs);
 
 ?>
+@stop
 
-</body>
-</html>
