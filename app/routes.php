@@ -13,8 +13,13 @@
 
 Route::get('/', function()
 {
-	return "here comes proj 3";
+	return View::make('index');
 });
+
+
+
+
+
 
 Route::get('/me', function()
 {
