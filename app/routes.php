@@ -19,7 +19,7 @@ Route::get('/', function()
 
 Route::get('/generate', function()
 {
-	return View::make('lorem');
+	return View::make('lorem');   ///GET SOME PARAM
 });
 
 
@@ -31,19 +31,38 @@ Route::get('/me', function()
 	return "here comes proj 3 TESTING";
 });
 
+
+
 Route::get('/data', function()
 {
-	//get file
+	
 	$books = File::get(app_path().'/database/books.json');
-	//convert to array
 	$books = json_decode($books, true);
-	//return array first entry via text index
 	$first_book = $books ["The Great Gatsby"];
 
 	return  $first_book;
 
-	//return $books;
 });
+
+
+
+
+
+Route::get('/new', function() {
+
+    $view  = '<form method="GET" action="/lorem">';
+    $view .= 'Number of paragraphs: <input type="text" name="num">';
+    $view .= '<input type="submit" value = "Get Lorem">';
+    $view .= '</form>';
+    return $view;
+
+});
+
+
+
+
+
+
 
 Route::get('/lorem', function()
 {

@@ -1,20 +1,21 @@
 
 @extends('_master')
 
-@section ('lorem')
-
+@section ('generator')
 <?php 
 
 
+/* get the number of words from the form and put in numofwords*/
+$num = $_GET['num'];
 
-//$logo = File::get(app_path().'logo.jpg');
 
-echo '<img src="logo.jpg">';
+//echo '<img src="logo.jpg">';
 echo '<br>';
-$generator = new Badcow\LoremIpsum\Generator();
-$paragraphs = $generator->getParagraphs(5);
+$generator = new Badcow\LoremIpsum\Generator($num);
+$paragraphs = $generator->getParagraphs($num);
 echo implode('<p>', $paragraphs);
 
 ?>
-
 @stop
+
+
