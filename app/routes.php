@@ -15,3 +15,14 @@ Route::get('/', function()
 {
 	return "here comes proj 3";
 });
+
+Route::get('/me', function()
+{
+	return "here comes proj 3 TESTING";
+});
+
+Route::get('/data', function()
+{
+	$books = File::get(app_path().'/database/books.json');
+	return $books;
+});
