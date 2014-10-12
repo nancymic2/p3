@@ -34,3 +34,10 @@ Route::get('/data', function()
 
 	//return $books;
 });
+
+Route::get('/lorem', function()
+{
+$generator = new Badcow\LoremIpsum\Generator();
+$paragraphs = $generator->getParagraphs(5);
+echo implode('<p>', $paragraphs);
+});
