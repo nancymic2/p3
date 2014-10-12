@@ -38,6 +38,6 @@ Route::get('/data', function()
 Route::get('/lorem', function()
 {
 $generator = new Badcow\LoremIpsum\Generator();
-$paragraphs = $generator->getParagraphs(5);
+$paragraphs = $generator->getParagraphs(15);
 echo implode('<p>', $paragraphs);
 });
