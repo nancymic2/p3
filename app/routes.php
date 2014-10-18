@@ -17,13 +17,6 @@ Route::get('/', function()
 	
 });
 
-Route::get('/generate', function()
-{
-	return View::make('lorem');   ///GET SOME PARAM
-});
-
-
-
 
 
 Route::get('/me', function()
@@ -33,7 +26,35 @@ Route::get('/me', function()
 
 
 
-Route::get('/data', function()
+
+
+
+
+
+Route::get('/lorem', function()
+{
+$num = Input::get('num');
+	//$num = $_GET['num'];
+
+$generator = new Badcow\LoremIpsum\Generator();
+$paragraphs = $generator->getParagraphs($num);
+$someparas = implode('<p>', $paragraphs);
+
+
+
+
+return View::make('lorem')->with('someparas', $someparas);
+
+
+});
+
+
+
+//Route::get('/lorem/{num?}', function($num = 5) {
+//  return View::make('lorem')->with('num', $num);
+//});
+
+/*Route::get('/data', function()
 {
 	
 	$books = File::get(app_path().'/database/books.json');
@@ -42,31 +63,4 @@ Route::get('/data', function()
 
 	return  $first_book;
 
-});
-
-
-
-
-
-Route::get('/new', function() {
-
-    $view  = '<form method="GET" action="/lorem">';
-    $view .= 'Number of paragraphs: <input type="text" name="num">';
-    $view .= '<input type="submit" value = "Get Lorem">';
-    $view .= '</form>';
-    return $view;
-
-});
-
-
-
-
-
-
-
-Route::get('/lorem', function()
-{
-$generator = new Badcow\LoremIpsum\Generator();
-$paragraphs = $generator->getParagraphs(25);
-echo implode('<p>', $paragraphs);
-});
+});*/
