@@ -2,7 +2,7 @@
 
 
 
-
+@extends('_master')
 @section ('csv')
 
 <?php 
@@ -12,9 +12,14 @@
 
 //$output = fopen('php://output', 'w');
 //fputcsv($output, array('name', 'address'));
+
+
+
 $faker = Faker\Factory::create();
 
 $file = 'people.csv';
+file_put_contents($file, "");
+
 // Open the file to get existing content
 $current = file_get_contents($file);
 
@@ -39,7 +44,7 @@ $next = $faker->address;
 file_put_contents($file, $current);
 
 
-echo '<h1><a href="people.csv">get file</a></h1>';
+echo '<h2><a href="people.csv">or get file</a></h2>';
 
 ?>
 @stop

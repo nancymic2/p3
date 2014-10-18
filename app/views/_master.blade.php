@@ -21,11 +21,15 @@
 
 @yield ('users')
 
+@yield ('csv')
+
+
+
 </div>
 
 
 </div>
 </div>
-<a href="/csv">get csv</a>
+
 </body>
 </html>
