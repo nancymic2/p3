@@ -26,5 +26,6 @@
 
 </div>
 </div>
+<a href="/csv">get csv</a>
 </body>
 </html>

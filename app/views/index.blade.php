@@ -18,6 +18,14 @@
     <input type='submit' value = 'Get Users'>
     </form>
 
+    <h2>Get CSV users</h2>
+
+    <form method='GET' action='/csv'>
+    Number of faux users: <input type='text' name='numusers' id='numusers'>
+    <input type='submit' value = 'Get CSV'>
+    </form>
+
+
 
 <?php 
 /*

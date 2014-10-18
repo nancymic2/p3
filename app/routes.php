@@ -24,16 +24,7 @@ Route::get('/lorem', function()
 {
 
 $num = Input::get('num');
-	//$num = $_GET['num'];
-
-//handle string inut
-/*if (is_string($num))
-{
-	//$num=1;
-	echo '<h2>Only Numbers Please</h2>';
-}
-*/
-//limit to 20 paras
+	
 if ($num > 20) 
 {
 	$num=20;
@@ -52,22 +43,14 @@ return View::make('lorem')->with('someparas', $someparas);
 Route::get('/users', function()
 {
 	$numusers = Input::get('numusers');
-//eventually make the view here but echo for now
-//echo '<h2>get some users</h2>';
 
 return View::make('users')->with('numusers', $numusers);
 });	
 
-
-//old test code
-
-/*Route::get('/data', function()
+Route::get('/csv', function()
 {
-	
-	$books = File::get(app_path().'/database/books.json');
-	$books = json_decode($books, true);
-	$first_book = $books ["The Great Gatsby"];
+	$numusers = Input::get('numusers');
 
-	return  $first_book;
+return View::make('csv')->with('numusers', $numusers);
+});	
 
-});*/
