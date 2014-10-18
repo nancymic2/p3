@@ -11,48 +11,55 @@
 |
 */
 
+//main page
 Route::get('/', function()
 {
 	return View::make('index');
 	
 });
 
-
-
-Route::get('/me', function()
-{
-	return "here comes proj 3 TESTING";
-});
-
-
-
-
-
-
-
+//text generator
 
 Route::get('/lorem', function()
 {
+
 $num = Input::get('num');
 	//$num = $_GET['num'];
 
+//handle string inut
+/*if (is_string($num))
+{
+	//$num=1;
+	echo '<h2>Only Numbers Please</h2>';
+}
+*/
+//limit to 20 paras
+if ($num > 20) 
+{
+	$num=20;
+}
+
 $generator = new Badcow\LoremIpsum\Generator();
 $paragraphs = $generator->getParagraphs($num);
+
 $someparas = implode('<p>', $paragraphs);
 
-
-
-
 return View::make('lorem')->with('someparas', $someparas);
-
 
 });
 
 
+Route::get('/users', function()
+{
+	$numusers = Input::get('numusers');
+//eventually make the view here but echo for now
+//echo '<h2>get some users</h2>';
 
-//Route::get('/lorem/{num?}', function($num = 5) {
-//  return View::make('lorem')->with('num', $num);
-//});
+return View::make('users')->with('numusers', $numusers);
+});	
+
+
+//old test code
 
 /*Route::get('/data', function()
 {
