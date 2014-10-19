@@ -4,7 +4,7 @@
 
 @section ('generator')
 
-Welcome to your new Best Friend. Below are some automated helpers for some common web development needs. Enjoy!
+
 <h3>Get dummy text</h3>
 
     <form method='GET' action='/lorem'>
