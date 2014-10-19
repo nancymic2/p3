@@ -134,6 +134,10 @@ a {
 	color: white;
 	text-decoration: none;
 }
+h2.a:hover {
+	color: blue;
+}
+
 body {
 background-color: white:;
 
