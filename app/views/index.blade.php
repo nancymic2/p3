@@ -4,10 +4,11 @@
 
 @section ('generator')
 
-<h3>Get up to 20 paragraphs of dummy text</h3>
+Welcome to your new Best Friend. Below are some automated helpers for some common web development needs. Enjoy!
+<h3>Get dummy text</h3>
 
     <form method='GET' action='/lorem'>
-    Number of paragraphs: <input type='text' name='num' id='num'>
+    Number of paras up to 20: <input type='text' name='num' id='num'>
     <input type='submit' value = 'Get Lorem'>
     </form>
 

@@ -89,6 +89,7 @@
 </span>
 </div>
 <div style="width:780px;  margin: 10px;">	
+	Welcome to your new Best Friend. Below are some automated helpers for some common web development needs. Enjoy!
 	<div class="ui-widget">
 
   <!--<label for="tags">Git Commands: </label>-->
