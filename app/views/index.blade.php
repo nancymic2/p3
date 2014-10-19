@@ -4,7 +4,7 @@
 
 @section ('generator')
 
-<h2>Get up to 20 paragraphs of Lorem Ipsum text</h2>
+<h2>Get up to 20 paragraphs of dummy text</h2>
 
     <form method='GET' action='/lorem'>
     Number of paragraphs: <input type='text' name='num' id='num'>
@@ -18,7 +18,7 @@
     <input type='submit' value = 'Get Users'>
     </form>
 
-    <h2>Get CSV users</h2>
+    <h2>Get CSV of users</h2>
 
     <form method='GET' action='/csv'>
     Number of faux users: <input type='text' name='numusers' id='numusers'>
