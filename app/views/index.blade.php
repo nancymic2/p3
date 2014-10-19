@@ -15,14 +15,14 @@
 <h3>Get some users</h3>
 
     <form method='GET' action='/users'>
-    Number of faux users: <input type='text' name='numusers' id='numusers'>
+    Number of users &lt; 51: <input type='text' name='numusers' id='numusers'>
     <input type='submit' value = 'Get Users'>
     </form>
 
     <h3>Get CSV of users</h3>
 
     <form method='GET' action='/csv'>
-    Number of faux users: <input type='text' name='numusers' id='numusers'>
+    Number of users &lt; 51: <input type='text' name='numusers' id='numusers'>
     <input type='submit' value = 'Get CSV'>
     </form>
 
