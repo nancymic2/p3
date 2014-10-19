@@ -44,12 +44,24 @@ Route::get('/users', function()
 {
 	$numusers = Input::get('numusers');
 
+	if ($numusers > 50) 
+{
+	$numusers=50;
+}
+
 return View::make('users')->with('numusers', $numusers);
 });	
+
+
 
 Route::get('/csv', function()
 {
 	$numusers = Input::get('numusers');
+	if ($numusers > 50) 
+{
+	$numusers=50;
+}
+
 
 return View::make('csv')->with('numusers', $numusers);
 });	
