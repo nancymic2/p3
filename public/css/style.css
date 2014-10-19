@@ -32,6 +32,10 @@ a:hover {
     text-decoration: none;
 }
 
+#stuff a {
+color: black;
+}
+
 header, footer, hgroup, nav, section { display: block; }
 
 header, footer {
