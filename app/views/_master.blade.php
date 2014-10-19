@@ -46,7 +46,7 @@
 	<h2>Color Picker</h2>
 	Choose colors to get their values <input id="colorPicker" />
 @yield ('generator') 
-<div style="width:730px; margin-top: 20px; margin-bottom: 20px; border: 1px solid gray; padding-left: 20px; padding-bottom: 20px; padding-right: 20px;">	
+<div id="stuff" style="width:730px; margin-top: 20px; margin-bottom: 20px; border: 1px solid gray; padding-left: 20px; padding-bottom: 20px; padding-right: 20px;">	
 <h2>You can copy your text from here:</h2>
 @yield ('generator2')
 
