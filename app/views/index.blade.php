@@ -8,7 +8,7 @@
 <h3>Get dummy text</h3>
 
     <form method='GET' action='/lorem'>
-    Number of paras up to 20: <input type='text' name='num' id='num'>
+    Number of paras &lt; 21: <input type='text' name='num' id='num'>
     <input type='submit' value = 'Get Lorem'>
     </form>
 
