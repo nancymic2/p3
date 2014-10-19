@@ -1,25 +1,32 @@
-## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+#Nancy Michell
+###CSCI E-15
+###Project 3
+####October 19, 2014
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+**Project URL [http://p3.scholarpaws.com](http://p3.scholarpaws.com)**
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+**Git URL [https://github.com/nancymic2/p3.git](https://github.com/nancymic2/p3.git)**
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
++ Project 3 is the developer's helper. It includes functionality to 
+	+ generate randome user data, 
+	+ generate lorem ipsum text, 
+	+ has a hex color picker to get the hex values of colors, 
+	+ includes a CSV file download generator for user data to put right into Excel, etc,
+	+ A git command definition auto-complete lookup
++ Code is both mine and from a variety of places:
+	+ The auto complete code is from <a href="http://jqueryui.com/autocomplete">http://jqueryui.com/autocomplete</a> with modifications by me to use Git commands
+	+ The CSV file-generation code is mine and uses the data gen package
+	+ The jQuery Color Picker code is from <a href="http://antproduction.free.fr/AntColorPicker/samples/basic-sample-antcolorpicker.html">the author's site</a>
+	+  The lorem ipsum pagkage is from <a href="https://packagist.org/packages/badcow/lorem-ipsum">BadCow</a>
+	+  The data gen pagkage is <a href="https://packagist.org/packages/fzaninotto/faker">fzaninotto/faker</a>
++ GitHub URL is [https://github.com/nancymic2/p3.git](https://github.com/nancymic2/p3.git)
++ note: image is from Google images
++ Potential issues:
+	+ Although i empty the csv file before each use, it is possible that a user might generate a file for say 20 users, then not download it immediately, and another user generates the file for say, 5 users, then the first user downloads the file and the file *could* contain just 5 users. I need to test.
+	+ I have two tiny missing images in the color picker code and can't find them yet.
 
-## Official Documentation
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
-### Contributing To Laravel
+***
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
