@@ -27,6 +27,7 @@
 	+ I have two tiny missing images in the color picker code and can't find them yet.
 	+ I have not yet moved the "extras" into views. They took a lot of time! But will move them eventually.
 	+ I created the csv file download code a proof of concept, so to speak. I had to maipulate the data so I just made two fields - Full name and Address.
+	+ The navigation links really all go to / so there there would be some nice-looking nav
 
 
 
