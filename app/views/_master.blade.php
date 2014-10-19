@@ -145,7 +145,7 @@ background-color: white:;
 
 #block {
 	position: absolute;
-	left: 790px;
+	left: 780px;
 	top: 350px;
 	z-index: 30;
 }
