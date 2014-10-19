@@ -85,7 +85,8 @@
 <img src="logo.jpg">
 
 <div style="width:790px;  margin-top: -5px; margin-bottom: 10px; padding-top: 5px; padding-left: 10px; background-color: #395fa8; height: 40px;">	
-<span style="color: white;"><a href="/">Home</a> &nbsp;&nbsp;&nbsp; <a href="/">Text Gen</a>&nbsp;&nbsp;&nbsp; <a href="/">Fake Users</a>
+<span style="color: white;"><a href="/">Home</a> &nbsp;&nbsp;&nbsp; <a href="/">Text Gen</a>&nbsp;&nbsp;&nbsp; 
+	<a href="/">Fake Users</a>&nbsp;&nbsp;&nbsp;
 	<a href="/">Users CSV</a>&nbsp;&nbsp;&nbsp; <a href="/">Color Picker</a>&nbsp;&nbsp;&nbsp; <a href="/">Git Commands</a>
 </span>
 </div>
