@@ -4,21 +4,21 @@
 
 @section ('generator')
 
-<h2>Get up to 20 paragraphs of dummy text</h2>
+<h3>Get up to 20 paragraphs of dummy text</h3>
 
     <form method='GET' action='/lorem'>
     Number of paragraphs: <input type='text' name='num' id='num'>
     <input type='submit' value = 'Get Lorem'>
     </form>
 
-<h2>Get some users</h2>
+<h3>Get some users</h3>
 
     <form method='GET' action='/users'>
     Number of faux users: <input type='text' name='numusers' id='numusers'>
     <input type='submit' value = 'Get Users'>
     </form>
 
-    <h2>Get CSV of users</h2>
+    <h3>Get CSV of users</h3>
 
     <form method='GET' action='/csv'>
     Number of faux users: <input type='text' name='numusers' id='numusers'>

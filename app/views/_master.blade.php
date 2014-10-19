@@ -96,12 +96,12 @@
   <h3>Git Commands</h3>
   Type in a command you need <input id="tags">
 
-</div>
-	<h2>Color Picker</h2>
+<!--/////////////////</div>-->
+	<h3>Color Picker</h3>
 	Choose colors to get their values <input id="colorPicker" />
 @yield ('generator') 
 <div id="stuff" style="width:730px; margin-top: 20px; margin-bottom: 20px; border: 1px solid gray; padding-left: 20px; padding-bottom: 20px; padding-right: 20px;">	
-<h2>You can copy your text from here:</h2>
+<h3>You can copy your text from here:</h3>
 @yield ('generator2')
 
 @yield ('users')
@@ -126,6 +126,8 @@ $("#colorPicker").AntColorPicker(
 </div>
 <!--<input id="colorPicker" />-->
 </div>
+</div>
+<!--/////////////////-->
 <style type="text/css">
 a {
 	color: white;
