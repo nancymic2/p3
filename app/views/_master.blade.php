@@ -78,7 +78,7 @@
 
 <body>
 
-
+<img id="block" src="block.png">
 
 <div style="font-family:'Arial',sans-Serif; width:800px; margin-left: 300px;  border: 1px solid gray;">	
 <div style="width:830px;">	
@@ -141,6 +141,13 @@ h2.a:hover {
 body {
 background-color: white:;
 
+}
+
+#block {
+	position: absolute;
+	left: 780px;
+	top: 350px;
+	z-index: 30;
 }
 </style>
 </body>
