@@ -4,6 +4,13 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
     <script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+  <link rel="stylesheet" href="/resources/demos/style.css">
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/AntColorPicker.css" rel="stylesheet">
@@ -28,6 +35,45 @@
             );
         });
     </script>
+<script>
+
+  $(function() {
+
+    var availableTags = [
+
+     "add - Add file contents to the index", 
+	 "bisect - Find by binary search the change that introduced a bug", 
+	 "branch - List; create; or delete branches", 
+	 "checkout - Checkout a branch or paths to the working tree", 
+	 "clone - Clone a repository into a new directory", "commit - Record changes to the repository", 
+	 "diff - Show changes between commits; commit and working tree; etc", 
+	 "fetch - Download objects and refs from another repository", 
+	 "grep - Print lines matching a pattern", 
+	 "init - Create an empty Git repository or reinitialize an existing one", 
+	 "log - Show commit logs", 
+	 "merge - Join two or more development histories together", 
+	 "mv - Move or rename a file; a directory; or a symlink", 
+	 "pull - Fetch from and integrate with another repository or a local branch", 
+	 "push - Update remote refs along with associated objects", 
+	 "rebase - Forward-port local commits to the updated upstream head", 
+	 "reset - Reset current HEAD to the specified state", 
+	 "rm - Remove files from the working tree and from the index", 
+	 "show - Show various types of objects", 
+	 "status - Show the working tree status", 
+	 "tag - Create; list; delete or verify a tag object signed with GPG"
+
+    ];
+
+    $( "#tags" ).autocomplete({
+
+      source: availableTags
+
+    });
+
+  });
+
+  </script>
+
 </head>
 
 <body>
@@ -43,6 +89,14 @@
 </span>
 </div>
 <div style="width:780px;  margin: 10px;">	
+	<div class="ui-widget">
+
+  <!--<label for="tags">Git Commands: </label>-->
+
+  <h3>Git Commands</h3>
+  Type in a command you need <input id="tags">
+
+</div>
 	<h2>Color Picker</h2>
 	Choose colors to get their values <input id="colorPicker" />
 @yield ('generator') 
