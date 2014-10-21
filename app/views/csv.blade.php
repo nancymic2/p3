@@ -44,7 +44,7 @@ $next = $faker->address;
 file_put_contents($file, $current);
 
 
-echo '<div class="csv"><u><a href="people.csv">or get the file</a></u></div>';
+echo '<div class="csv"><u><a href="people.csv">get the file</a></u></div>';
 echo 'because you really need a file';
 
 ?>

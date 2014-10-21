@@ -105,7 +105,8 @@
 	Choose colors to get their hex values <input id="colorPicker" />
 @yield ('generator') 
 <div id="stuff" style="width:730px; margin-top: 20px; margin-bottom: 20px; border: 1px solid gray; padding-left: 20px; padding-bottom: 20px; padding-right: 20px;">	
-<h3>You can copy your text from here:</h3>
+<h3>Output:</h3>
+<br>
 @yield ('generator2')
 
 @yield ('users')
