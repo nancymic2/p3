@@ -9,7 +9,7 @@
 
     <form method='GET' action='/lorem'>
     Number of paras &lt; 21: <input type='text' name='num' id='num'>
-    <input type='submit' value = 'Get Lorem'>
+    <input type='submit' value = 'Get text '>
     </form>
 
 <h3>Get some users</h3>
@@ -23,14 +23,14 @@
 
     <form method='GET' action='/csv'>
     Number of users &lt; 51: <input type='text' name='numusers' id='numusers'>
-    <input type='submit' value = 'Get CSV'>
+    <input type='submit' value = ' Get  CSV '>
     </form>
 
-<h3>Get pword</h3>
+<h3>Get password</h3>
 
     <form method='GET' action='/password'>
     Number of words &lt; 10: <input type='text' name='numofwords' id='numofwords'>
-    <input type='submit' value = 'Get password'>
+    <input type='submit' value = 'Get pword'>
     </form>
 
 <?php 
