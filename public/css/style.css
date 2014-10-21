@@ -128,6 +128,9 @@ header .menu-content {
     outline: none;
     text-decoration: none;
 }
+.csv a:hover {
+color: blue;
+}
 
 .library-version {
     color: #fff;
