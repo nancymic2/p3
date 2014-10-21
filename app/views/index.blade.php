@@ -8,28 +8,28 @@
 <h3>Get dummy text</h3>
 
     <form method='GET' action='/lorem'>
-    Number of paras &lt; 21: <input type='text' name='num' id='num'>
-    <input type='submit' value = 'Get text '>
+    Number of dummy paragraphs &lt; 21: <input type='text' name='num' id='num'>
+    <input type='submit' value = ' Get text '>
     </form>
 
 <h3>Get some users</h3>
 
     <form method='GET' action='/users'>
-    Number of users &lt; 51: <input type='text' name='numusers' id='numusers'>
+    Enter number of random users &lt; 51: <input type='text' name='numusers' id='numusers'>
     <input type='submit' value = 'Get Users'>
     </form>
 
     <h3>Get CSV of users</h3>
 
     <form method='GET' action='/csv'>
-    Number of users &lt; 51: <input type='text' name='numusers' id='numusers'>
+    Enter number of random users &lt; 51: <input type='text' name='numusers' id='numusers'>
     <input type='submit' value = ' Get  CSV '>
     </form>
 
-<h3>Get password</h3>
+<h3>Get xkcd password</h3>
 
     <form method='GET' action='/password'>
-    Number of words &lt; 10: <input type='text' name='numofwords' id='numofwords'>
+    Number of words for password &lt; 10: <input type='text' name='numofwords' id='numofwords'>
     <input type='submit' value = 'Get pword'>
     </form>
 
