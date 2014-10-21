@@ -54,7 +54,7 @@
         //On définit nos paramètres par défaut
         var defauts=
         {
-            "iconPath": "../public/images/antColorPicker/",
+            "iconPath": "images/antColorPicker/",
             //"withIconeInInput": true,
             "withRAZOption": true,
             "withCrossToClose": true,
