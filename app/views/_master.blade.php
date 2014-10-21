@@ -114,6 +114,7 @@
 @yield ('csv')
 
 @yield ('password')
+<p>&nbsp;</p>
 
 <script type="text/javascript">
 //initialisation of AntColorPicker with customisation of labels
