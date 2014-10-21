@@ -26,7 +26,12 @@
     <input type='submit' value = 'Get CSV'>
     </form>
 
+<h3>Get pword</h3>
 
+    <form method='GET' action='/password'>
+    Number of words &lt; 10: <input type='text' name='numofwords' id='numofwords'>
+    <input type='submit' value = 'Get password'>
+    </form>
 
 <?php 
 /*

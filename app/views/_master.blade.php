@@ -88,6 +88,7 @@
 <span style="color: white;"><a href="/">Home</a> &nbsp;&nbsp;&nbsp; <a href="/">Text Gen</a>&nbsp;&nbsp;&nbsp; 
 	<a href="/">Fake Users</a>&nbsp;&nbsp;&nbsp;
 	<a href="/">Users CSV</a>&nbsp;&nbsp;&nbsp; <a href="/">Color Picker</a>&nbsp;&nbsp;&nbsp; <a href="/">Git Commands</a>
+	&nbsp;&nbsp;&nbsp; <a href="/">Random Passwords</a>
 </span>
 </div>
 <div style="width:780px;  margin: 10px;">	
@@ -110,6 +111,8 @@
 @yield ('users')
 
 @yield ('csv')
+
+@yield ('password')
 
 <script type="text/javascript">
 //initialisation of AntColorPicker with customisation of labels
