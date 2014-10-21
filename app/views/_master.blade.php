@@ -104,9 +104,9 @@
 	<h3>Color Picker</h3>
 	Choose colors to get their hex values <input id="colorPicker" />
 @yield ('generator') 
-<div id="stuff" style="width:730px; margin-top: 20px; margin-bottom: 20px; border: 1px solid gray; padding-left: 20px; padding-bottom: 20px; padding-right: 20px;">	
+<!--<div id="stuff" style="width:730px; margin-top: 20px; margin-bottom: 20px; border: 1px solid gray; padding-left: 20px; padding-bottom: 20px; padding-right: 20px;">	
 <h3>Output:</h3>
-<br>
+<br>-->
 @yield ('generator2')
 
 @yield ('users')

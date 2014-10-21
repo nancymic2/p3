@@ -43,10 +43,12 @@ $next = $faker->address;
 // Write the contents back to the file
 file_put_contents($file, $current);
 
-
-echo '<div class="csv"><u><a href="people.csv">get the file</a></u></div>';
-echo 'because you really need a file';
-
+echo '<div id="stuff" style="width:730px; margin-top: 20px; margin-bottom: 20px; border: 1px solid gray; padding-left: 20px; padding-bottom: 20px; padding-right: 20px;">';	
+echo '<br>';
+echo '<h3>Download:</h3>';
+echo '<div class="csv">download <u><a href="people.csv">the file</a></u> in CSV format</div>';
+//echo 'because you really need a file';
+echo '</div>';
 ?>
 
 
