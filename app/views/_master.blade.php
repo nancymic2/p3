@@ -98,7 +98,7 @@
   <!--<label for="tags">Git Commands: </label>-->
 
   <h3>Git Commands</h3>
-  Type a command or action you need <input id="tags">
+  Start typing a git command or action <input id="tags">
 
 <!--/////////////////</div>-->
 	<h3>Color Picker</h3>

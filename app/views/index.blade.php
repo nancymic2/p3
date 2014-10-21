@@ -9,14 +9,14 @@
 
     <form method='GET' action='/lorem'>
     Number of dummy paragraphs &lt; 21: <input type='text' name='num' id='num'>
-    <input type='submit' value = ' Get text '>
+    <input type='submit' value = ' Get  text '>
     </form>
 
 <h3>Get some users</h3>
 
     <form method='GET' action='/users'>
     Enter number of random users &lt; 51: <input type='text' name='numusers' id='numusers'>
-    <input type='submit' value = 'Get Users'>
+    <input type='submit' value = 'Get  Users'>
     </form>
 
     <h3>Get CSV of users</h3>
