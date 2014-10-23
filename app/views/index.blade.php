@@ -22,7 +22,7 @@
     <h3>Get CSV of users</h3>
 
     <form method='GET' action='/csv'>
-    Enter number of random users &lt; 51: <input type='text' name='numusers' id='numusers'>
+    Enter number of random users &lt; 51: <input type='text' name='numusers' id='numusers2'>
     <input type='submit' value = ' Get  CSV '>
     </form>
 
