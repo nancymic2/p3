@@ -12,6 +12,18 @@
 */
 
 //main page
+
+/////////// reroute to / on error
+////////// remove for local
+
+App::missing(function($exception)
+{
+	return View::make('index');
+});
+
+//////////////////////////////////
+//////////////////////////////////
+
 Route::get('/', function()
 {
 	return View::make('index');
