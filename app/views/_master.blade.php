@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <title>Developer's best friend</title>
 	<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
     <script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
       <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
@@ -82,7 +83,7 @@
 
 <div style="font-family:'Arial',sans-Serif; width:800px; margin-left: 300px;  border: 1px solid gray;">	
 <div style="width:830px;">	
-<img src="logo.jpg">
+<img src="logo.jpg" alt="logo">
 
 <div style="width:790px;  margin-top: -5px; margin-bottom: 10px; padding-top: 5px; padding-left: 10px; background-color: #395fa8; height: 40px;">	
 <span style="color: white;"><a href="/">Home</a> &nbsp;&nbsp;&nbsp; <a href="/">Text Gen</a>&nbsp;&nbsp;&nbsp; 
@@ -134,8 +135,10 @@ $("#colorPicker").AntColorPicker(
 </div>
 <!--<input id="colorPicker" />-->
 </div>
-</div>
+
 <!--/////////////////-->
+</body>
+</html>
 <style type="text/css">
 a {
 	color: white;
@@ -152,5 +155,4 @@ background-color: white:;
 
 
 </style>
-</body>
-</html>
+
