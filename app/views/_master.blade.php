@@ -116,6 +116,8 @@ background-color: white:;
   hex value.</p>
   <p>Forget those pesky git commands? Just start typing something you remember doing and the command and description will appear.</p>
   <p>Need some dummy, or greeking text to fill in your pages? just enter the number of paragraphs you would like generated!</p>
+  <p>Need a complex password or passphrase? Just tell the xkcd password generator how namy words your passphrase should contain, and it will be
+    generated for you.</p>
   <p> Enjoy!</p>
 	<div class="ui-widget">
 
