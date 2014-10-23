@@ -15,6 +15,22 @@
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/AntColorPicker.css" rel="stylesheet">
+<style type="text/css">
+a {
+  color: white;
+  text-decoration: none;
+}
+h2.a:hover {
+  color: blue;
+}
+
+body {
+background-color: white:;
+
+}
+
+
+</style>
 
 
     <script type="text/javascript" src="js/libs/external-libs/jquery-1.10.1.min.js"></script>
@@ -139,20 +155,4 @@ $("#colorPicker").AntColorPicker(
 <!--/////////////////-->
 </body>
 </html>
-<style type="text/css">
-a {
-	color: white;
-	text-decoration: none;
-}
-h2.a:hover {
-	color: blue;
-}
-
-body {
-background-color: white:;
-
-}
-
-
-</style>
 
