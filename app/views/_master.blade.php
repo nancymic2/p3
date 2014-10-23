@@ -109,7 +109,14 @@ background-color: white:;
 </span>
 </div>
 <div style="width:780px;  margin: 10px;">	
-	Welcome to your new Best Friend. Below are some automated helpers for some common web development needs. Enjoy!
+	<p>Welcome to your new Best Friend. Below are some automated helpers for some common web development needs. </p>
+  <p>For example, if you are setting up a database and need to test with some user data, you can generate users below as either text on the page
+  or in a csv file for downloading. </p>
+  <p>How often do you need a quick color value? Just click in the text field in the color picker and choose a color and you will see its
+  hex value.</p>
+  <p>Forget those pesky git commands? Just start typing something you remember doing and the command and description will appear.</p>
+  <p>Need some dummy, or greeking text to fill in your pages? just enter the number of paragraphs you would like generated!</p>
+  <p> Enjoy!</p>
 	<div class="ui-widget">
 
   <!--<label for="tags">Git Commands: </label>-->
