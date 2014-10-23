@@ -16,6 +16,13 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/AntColorPicker.css" rel="stylesheet">
 <style type="text/css">
+p
+{
+
+  margin-top: 7px;
+  margin-botton: 7px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
 a {
   color: white;
   text-decoration: none;
